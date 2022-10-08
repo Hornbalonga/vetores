@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int soma,cont,A[6]={1,0,5,-2,-5,7}; 
+
+  for(cont= 0; cont<6;cont++){
+  printf("%d ",A[cont]);
+
+    }
+  
+  
+  return 0;
+}
+//falta fazer o resto
