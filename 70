@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+
+int notas[10], i,total=0, media;
+
+printf("Informe as 10 notas: \n");
+
+for(i=0;i<10;i++){
+
+ scanf("%d", &notas[i]);
+
+}
+
+for(i=0;i<10;i++){
+
+ total = total + notas[i];
+
+}
+
+media = (total/10);
+
+printf("A media geral e: %d", media);
+
+return 0;
+
+}
